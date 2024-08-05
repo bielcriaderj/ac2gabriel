@@ -1,0 +1,520 @@
+/* Geral*/
+body{
+    background-color: #f3f3f3;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    margin:0;
+    padding: 0;
+}
+
+/*header*/
+.main-header {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+.navegacao {
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+}
+.nav-lista {
+    margin-left: 1250px;
+}
+.nav-lista-itens {
+    display: inline-block;
+    padding: 25px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    width: 22px;
+    height: 22px;
+    width: 10%;
+}
+.logo {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 1%;
+    left: 380px;
+    transition: transform 0.4s ease;
+}
+.nav-lista-itens img {
+    transition: transform 0.4s ease;
+}
+.nav-lista-itens img:hover {
+    transform: scale(1.1);
+}
+.logo:hover {
+    transform: scale(1.1);
+}
+
+/*footer*/
+footer{
+    background: #0b3916;
+    padding: 5px;
+
+}
+.foot-section{
+    display: inline-block;
+    width: 32%;
+    min-width: 250px;
+}
+.main-footer{
+    position: relative;
+}
+.footer-section{
+    display: inline-block;
+    width: 9%;
+    min-width: 50px;  
+    margin: 45px 200px;
+    margin-top: 75px;
+    color: rgb(255, 255, 255);
+}
+#img-footer{
+    float: left;
+    width: 135px;
+    height: 135px;
+    position: absolute;
+          
+}
+.footer-h1{
+    color: rgb(202, 202, 202);
+    font-style: italic;
+    font-weight: bolder;
+}
+#alunos{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    margin: 1px 40px;
+}
+
+/*Informação do formulario*/
+#info-contato-h2{
+    margin: 1px 40px;
+}
+#info-contato-p{
+    margin: 1px 45px ;
+    padding: 10px;
+}
+
+/*Formulario de Contato*/
+.contato{
+    position: relative;
+    margin-top: 25px;
+    margin-left: 60px;
+    max-width: 500px;
+    
+}
+.contato input,textarea{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 8px;
+    resize: none;
+    font-size: 14px;
+}
+.contato label{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.button-contato{
+    background-color: rgba(32, 32, 32, 0.9);
+    border: 0;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.button-contato:hover {
+    background-color: #575757;
+}
+
+/*Formulario de Login*/
+.login {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+#titulo-login {
+    text-align: center;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login label {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.login input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0px 8px;
+    font-size: 14px;
+}
+
+.button {
+    background-color: rgba(32, 32, 32, 0.9);
+    border: 0;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #575757;
+}
+
+.login-links {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-links a {
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.login-links a:hover {
+    text-decoration: underline;
+}
+
+/*Pagina Inicial*/
+.frase-empresa {
+    position: relative;
+    max-width: 950px;
+    margin: 20px auto;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.img-empresa {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-content {
+    position: absolute;
+    top: 7%;
+    left: 6%;
+    color: white;
+    max-width: 65%;
+}
+
+#info-inicial-h2 {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+
+#info-inicial-p {
+    font-size: 15px;
+    line-height: 1.2;
+    margin-bottom: 3.5em;
+}
+
+.button-img {
+    display: inline-block;
+    padding: 0.8em 2em;
+    background-color: #a60000;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.button-img:hover {
+    background-color: #5c0000;
+}
+
+.container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.melhoresavaliacao {
+    font-size: 26px;
+    margin-top: 7px;
+}
+
+.destinos-populares {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.destinos-grid {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 30%;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.img-destinos-grid {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.destino-content {
+    padding: 15px;
+}
+
+.nomelocal {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.destino-content p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.localizacao {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.destino-infos {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.destino-infos span {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+}
+
+.imagem-span {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.button-conferirprecos {
+    display: block;
+    width: 100%;
+    background-color: #a60000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button-conferirprecos:hover {
+    background-color: #5c0000;
+}
+
+.container-buscas {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.buscas-populares {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.buscas-grid {
+    flex: 1 1 calc(25% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.img-buscas-grid {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.buscas-titulo, .class-titulo {
+    font-size: 26px;
+    margin-top: 7px;
+}
+
+.buscas-text, .class-text {
+    font-weight: bold;
+    font-size: 13px;
+    color: #555;
+}
+
+.buscas-text-grid, .class-text-grid{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.buscas-grid:hover {
+    transform: scale(1.05);
+}
+
+.container-class {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.class{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.class-grid{
+    flex: 1 1 calc(25% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.img-class-grid {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.class-grid:hover {
+    transform: scale(1.05);
+}
+/*Pagina Destinos*/
+
+.hotel-list {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.hotel-item {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.hotel-img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.hotel-info {
+    flex-grow: 1;
+}
+
+.hotel-name {
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.hotel-details, .hotel-location, .hotel-rating {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.hotel-price {
+    text-align: right;
+}
+
+.hotel-price span {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.button-verprecos {
+    background-color: #a60000;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-verprecos:hover {
+    background-color: #5c0000;
+}
+
+.estadiassemelhantes{
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+@media (max-width: 600px) {
+    .nav-lista {
+        margin-left: 0;
+        text-align: center;
+    }
+    .nav-lista-itens {
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .logo {
+        display: none;
+    }
+    .text-content {
+        max-width: 90%;
+        left: 5%;
+    }
+    .destinos-grid, .destino-content {
+        width: 100%;
+    }
+    .destino-content {
+        padding: 10px;
+    }
+}
